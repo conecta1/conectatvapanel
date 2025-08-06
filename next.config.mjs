@@ -9,11 +9,11 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  output: 'export',  // Esto genera archivos HTML estáticos
-  distDir: 'out',    // Los archivos se generarán en la carpeta 'out'
+  // Elegir solo una opción:
   experimental: {
     appDir: true,
   }
+  // Quitar output: 'export' y distDir: 'out' si quieres usar App Router
 }
 
 export default nextConfig;
